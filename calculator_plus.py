@@ -18,6 +18,12 @@ class Calculator:
 
     def square_root(self, x):
         return math.sqrt(x)
+    
+
+class GeometryCalculator:
+
+    def calculate_circle_area(self, radius):
+        return math.pi * radius ** 2
 
 if __name__ == "__main__":
 
@@ -31,3 +37,8 @@ if __name__ == "__main__":
     print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}")
     print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
     print(f"The square root of {num3} = {calculator.square_root(num3)}")
+
+    calculator = GeometryCalculator()
+    radius = 5
+
+    print(f"The area of the circle with radius {radius} = {calculator.calculate_circle_area(radius)}")
