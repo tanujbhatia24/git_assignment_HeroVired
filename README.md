@@ -111,7 +111,6 @@ python calculator_plus.py
 ```
 ![image](https://github.com/user-attachments/assets/afa33ace-1c25-4c1e-8838-cacde74301a2)
 
-
 - calculator.py Output [Question 3]
 ``` sh
 python calculator_plus.py 
@@ -122,7 +121,7 @@ python calculator_plus.py
 ```sh
   git lfs ls-files
 ```
-![image](https://github.com/user-attachments/assets/792da483-03d0-47fa-98f2-0f4a9d269dec)
+![image](https://github.com/user-attachments/assets/01f55558-c4bf-43fd-b5fd-6ffc21ff6c8a)
 
 ## License
 This project is for educational purposes and does not have a specific license.
