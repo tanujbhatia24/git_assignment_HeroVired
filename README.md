@@ -16,8 +16,8 @@ This repository contains Python scripts for various computational tasks, includi
 - **lfs**: A branch dedicated to handling large files using Git LFS.
 - **feature/sqrt**: A branch for implementing the square root function in "calculator.py".
 - **geometry-calculator**: Serves as the main feature branch where different sub-features (circle area and rectangle area calculations) are developed and merged.
-- **feature/circle-area**: A branch for implementing the area calculation of a circle in "geometry-calc.py".
-- **feature/rectangle-area**: A branch for implementing the area calculation of a rectangle in "geometry-calc.py".
+- **feature/circle-area**: A branch for implementing the area calculation of a circle in "calculator.py".
+- **feature/rectangle-area**: A branch for implementing the area calculation of a rectangle in "calculator.py".
    
 ## Workflow Steps
 
