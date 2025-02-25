@@ -1,0 +1,29 @@
+#GIT LSF implementation steps
+
+    STEP1: #Download and install the Git command line extension. 
+        Link: https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-v3.6.1.exe
+
+    STEP2: #Once downloaded and installed, set up Git LFS for your user account by running: "You only need to run this once per user account."
+        Run: git lfs install "This sets up Git LFS for your system."
+
+
+    STEP3: #In each Git repository where you want to use Git LFS, select the file types you'd like Git LFS to manage (or directly edit your .gitattributes). 
+    #You can configure additional file extensions at anytime.
+    #Track Large Files with Git LFS
+        Run: git lfs track "*.bin"   # Example for binary files
+        Run: git lfs track "*.zip"   # Example for compressed files
+
+    STEP4: #This creates a .gitattributes file that records tracked file types. Commit this .gitattributes file.
+        Run: git add .gitattributes
+
+    STEP5: #Just commit and push as you normally would; for instance, if your current branch is named lfs.
+        Run: git commit -m "Add design file"
+        Run: git push origin lfs
+
+#GIT LSF Validation steps
+
+    STEP1: #To verify that the file is tracked by Git LFS.
+        Run: git lfs ls-files
+
+    STEP2: #To see the pointer file inside Git.
+        Run: git show HEAD:large_file.bin
