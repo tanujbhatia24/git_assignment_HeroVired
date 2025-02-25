@@ -58,20 +58,23 @@ This repository contains Python scripts for various computational tasks, includi
      ```
 2. **Install and Set Up Git LFS**<br>
    - Download and install the Git command line extension. 
-   ```sh
-   https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-v3.6.1.exe
-   ```
+     ```sh
+     https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-v3.6.1.exe
+     ```
    - Once downloaded and installed, set up Git LFS for your user account and select the file types you'd like Git LFS to manage (or directly edit your .gitattributes)
-   ```sh
-   git lfs install
-   git lfs track "*.bin"
-   git add .gitattributes
-   git commit -m "Add design file"
-   git push origin lfs
-   ```
+     ```sh
+     git lfs install
+     git lfs track "*.bin"
+     git add .gitattributes
+     ```
 3. **Upload Large Files ans Push Features**
-   - Add and commit a file over 200MB, then push to GitHub.
+   - Add and commit a file over 200MB.
    - Implement, commit, and push all the changes or requirements into the current branch.
+     ```sh
+     git add .
+     git commit -m "Add design file"
+     git push origin lfs
+     ```
    - Merge into `main` once you are done.
 
 ### **3️⃣Geometry Calculator with Git Stash**
