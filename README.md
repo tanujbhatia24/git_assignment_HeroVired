@@ -72,7 +72,7 @@ This repository contains Python scripts for various computational tasks, includi
    - Implement, commit, and push all the changes or requirements into the current branch.
      ```sh
      git add .
-     git commit -m "Add design file"
+     git commit -m "Add .bin file"
      git push origin lfs
      ```
    - Merge into `main` once you are done.
