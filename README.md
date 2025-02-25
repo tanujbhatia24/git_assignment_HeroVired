@@ -118,7 +118,12 @@ python calculator_plus.py
 ``` sh
 python calculator_plus.py 
 ```
-![image](https://github.com/user-attachments/assets/3ce98df0-1413-4a90-89a0-eaf269e91d81)
+![image](https://github.com/user-attachments/assets/45defd47-6de4-400f-91d0-d1654ae2b487)
+![image](https://github.com/user-attachments/assets/056a11c5-0e24-4428-b86b-626a9a463bac)
+![image](https://github.com/user-attachments/assets/1ff62265-b606-428f-ab5f-53827cd49343)
+![image](https://github.com/user-attachments/assets/a77ceffe-4c3f-420b-897e-b3e225cdd026)
+![image](https://github.com/user-attachments/assets/044e475d-2523-41c1-8565-5b2d88ca08da)
+
 
 - git lsf output [Question 2]
 ```sh
