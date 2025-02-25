@@ -75,10 +75,10 @@ This repository contains Python scripts for various computational tasks, includi
    - Merge into `main` once you are done.
 
 ### **3️⃣Geometry Calculator with Git Stash**
-1. **Create a geometry-calculator Branch**
+1. **Create a main feature branch geometry-calculator**
    - Switch to the `geometry-calculator` branch.
      
-2. **Create Feature Branches from the branch "geometry-calculator"**
+2. **Create Feature Branches from the main feature branch "geometry-calculator"**
    - `feature/circle-area` for circle area calculations.
    - `feature/rectangle-area` for rectangle area calculations.
 
