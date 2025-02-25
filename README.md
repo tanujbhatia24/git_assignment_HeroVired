@@ -105,19 +105,20 @@ To contribute:
 4. Push to your branch and open a Pull Request.
 
 ## Scripts Execution steps with Output Screenshots reference
-- calculator.py Output
+- calculator.py Output [Question 1]
 ``` sh
-python calculator.py 
+python calculator_plus.py 
 ```
-![image](https://github.com/user-attachments/assets/46332921-9d86-41ac-bb67-e79baee0bd5e)
+![image](https://github.com/user-attachments/assets/afa33ace-1c25-4c1e-8838-cacde74301a2)
 
-- geometry-calc.py Output
+
+- calculator.py Output [Question 3]
 ``` sh
-  python geometry-calc.py
+python calculator_plus.py 
 ```
 ![image](https://github.com/user-attachments/assets/3ce98df0-1413-4a90-89a0-eaf269e91d81)
 
-- git lsf output
+- git lsf output [Question 2]
 ```sh
   git lfs ls-files
 ```
