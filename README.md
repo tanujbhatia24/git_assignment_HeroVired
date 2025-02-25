@@ -113,6 +113,12 @@ python calculator_plus.py
 ```
 ![image](https://github.com/user-attachments/assets/afa33ace-1c25-4c1e-8838-cacde74301a2)
 
+- git lsf output [Question 2]
+```sh
+  git lfs ls-files
+```
+![image](https://github.com/user-attachments/assets/01f55558-c4bf-43fd-b5fd-6ffc21ff6c8a)
+
 - calculator.py Output [Question 3]
 ``` sh
 python calculator_plus.py 
@@ -123,12 +129,14 @@ python calculator_plus.py
 ![image](https://github.com/user-attachments/assets/a77ceffe-4c3f-420b-897e-b3e225cdd026)
 ![image](https://github.com/user-attachments/assets/044e475d-2523-41c1-8565-5b2d88ca08da)
 
-
-- git lsf output [Question 2]
+- Output post changes implementation as per the feedback [Question 3]
 ```sh
-  git lfs ls-files
+1. Try-except blocks to handle invalid inputs and errors like division by zero or square root of negative numbers.
+2. User input instead of hardcoded values.
+3. Formatted results to 2 decimal places for better readability.
 ```
-![image](https://github.com/user-attachments/assets/01f55558-c4bf-43fd-b5fd-6ffc21ff6c8a)
+![image](https://github.com/user-attachments/assets/889c57ea-5a03-4e9e-bf18-c78c24df18c6)
+
 
 ## License
 This project is for educational purposes and does not have a specific license.
