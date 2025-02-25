@@ -4,8 +4,7 @@
 This repository contains Python scripts for various computational tasks, including arithmetic operations, geometric calculations, and Git version control workflows. It is part of the Git assignment for HeroVired, demonstrating version control best practices, collaboration, and branching strategies.
 
 ## Repository Structure
-- **calculator.py**: A Python script that performs basic arithmetic operations, including addition, subtraction, multiplication, and division, along with a square root function.
-- **geometry-calc.py**: A Python script for performing geometric calculations, including area computations for circles and rectangles.
+- **calculator.py**: A Python script that performs basic arithmetic operations, including addition, subtraction, multiplication, division, square root function along with performing geometric calculations, including area computations for circles and rectangles.
 - **git_lfs.txt**: A text file having detailed steps for Git LFS tracking.
 - **large_file.bin**: A large binary file tracked using Git LFS.
 - **.gitattributes:** A Git configuration file that specifies how certain files should be handled by Git LFS.
